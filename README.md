@@ -143,7 +143,7 @@ app.listen(port, function () {
 ####
 
 * npm install --save body-parser. This will add a node module called body-parser to your node_modules folder and also update your package.json file  so body-parser will be listed as a dependency
-* After body-parser is installed add it ass middleware. You'll need to add both bodyParser.urlencoded and bodyParser.json
+* After body-parser is installed add it as middleware. You'll need to add both bodyParser.urlencoded and bodyParser.json
 * In your server.js file import body-parser using require and apply body-parser to your express application.
 
 ####
