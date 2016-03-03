@@ -247,7 +247,7 @@ app.get('/api/getProductList', function(req, res) {
  some code here that returns the products
 });
 
-});
+
 
 app.listen(port, function () {
 	console.log('Listening on port', port);
@@ -271,7 +271,7 @@ app.use(bodyParser.json());
 
 
 app.get('/api/getProductList', function(req, res) {
- some code here that returns the products
+ res.send(products)
 
 });
 
@@ -303,11 +303,12 @@ Partial Example
 ```
 
 app.get('/api/getProduct/:id', function(req, res) {
-    var product = _.findIndex(products, {_id: req.params.id});
-    var item = products.slice(product, product + 1);
+    var product = use lodash to find the index of the product
+    var item = make a copy of the product object
     res.json(item)
 
 });
+
 
 ```
 ####
