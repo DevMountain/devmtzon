@@ -206,60 +206,6 @@ app.listen(port, function () {
 
 ####
 
-### Install and configure Express Session
-
-####
-
-* Install express-session using npm
-* Require express-session in your server file
-* Apply express-session as middleware
-* Create a config file that contains your secret
-* Import the config file into your server file and apply the secret to your express middleware
-
-####
-
-* npm install --save express-session this will add express-session to your package.json file as a dependency
-* Use the require() syntax to require express-session  in your server
-* app.use() apply express-session as middleware
-* In your new config file create a server object with a property of secret and a value as your new secret
-* Make sure you module.export your server object so you can then require it in your server file
-
-
-####
-
-Actual Code
-
-```
-// require express-session so we can use it in our server
-
-var session = require('express-session');
-var config = require('the path to your config file');
-
-
-
-// express-session middleware. We are getting the value for secret from our config file config.server.secret
-
-app.use(session({secret:config.server.secret}));
-
-
-```
-
-
-Actual Code
-
-```
-
-var express = require('express'),
-    bodyParser = require('body-parser'),
-    _ = require('lodash'),
-    app = express(),
-    port = 8080;
-
-
-```
-
-####
-
 ## Express Routes
 
 ### Diagram
