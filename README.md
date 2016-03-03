@@ -45,7 +45,7 @@ http://nodemon.io/
 ####
 
 * Clone https://github.com/DevMountain/devmtzon.
-* The master branch is the beginning of the project. Every branch is
+* The master branch is the beginning of the project.
 * The repo is broken up into steps, with everyday branch is  a step
 * Each day has 2 branches. 1 is the challenge and the other is the solution
 
