@@ -40,6 +40,17 @@ http://nodemon.io/
 
 ## Setting up the project
 
+### Clone the repo
+
+####
+
+* Clone https://github.com/DevMountain/devmtzon
+* The master branch is the beginning of the project
+* The branch is broken up into steps, with everyday being a step
+* Each day has 2 branches. 1 is the challenge and the other is the solution
+
+
+
 ### Creating the package.json file
 
 ####
@@ -62,7 +73,9 @@ This file must be called package.json otherwise npm will not work
 }
 
 ```
+
 ####
+
 
 Here is an example of a package.json file after express has been installed via npm install --save express
 
@@ -137,6 +150,13 @@ app.listen(port, function () {
 });
 
  ```
+###  Install Dependencies
+
+####
+
+cd into the public directory and run bower-install. This will install all of your front end dependencies.
+
+####
 
 ## Importing 3rd Parties
 
