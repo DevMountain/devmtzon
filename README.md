@@ -44,16 +44,18 @@ http://nodemon.io/
 
 ####
 
-* Clone https://github.com/DevMountain/devmtzon
-* The master branch is the beginning of the project
-* The branch is broken up into steps, with everyday being a step
+* Clone https://github.com/DevMountain/devmtzon.
+* The master branch is the beginning of the project. Every branch is
+* The repo is broken up into steps, with everyday branch is  a step
 * Each day has 2 branches. 1 is the challenge and the other is the solution
 
 
 
-### Creating the package.json file
+### Create a package.json file
 
 ####
+
+* You need to add a package.json file in the root of the project
 * Basic setup - name, author, version, description, main
 * Add a scripts object with the property start with the value being node your server file name.  Example "start": "node server.js"
 * IMPORTANT in your console run npm install --save express to save express as a dependency in your package.json. By running npm install --save it will either create a dependencies object with the newly added dependency or it will add the dependency to the already created dependencies object
@@ -61,6 +63,7 @@ http://nodemon.io/
 ####
 
 This file must be called package.json otherwise npm will not work
+
 
 ```
 
