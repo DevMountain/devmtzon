@@ -136,25 +136,16 @@ app.listen(port, function () {
 
  ```
 
-### Install Dependencies
-
-####
-
-Run npm install and bower install
-
-####
-
-If Npm install or Bower install fails make sure you are in the right directory. Npm needs to have access to the package.json file and bower needs to have access to the bower.json file
-
-
 ## Importing 3rd Parties
 
 ### Import Body parser
 
 ####
+
 * npm install --save body-parser. This will add a node module called body-parser to your node_modules folder and also update your package.json file  so body-parser will be listed as a dependency
 * After body-parser is installed add it ass middleware. You'll need to add both bodyParser.urlencoded and bodyParser.json
 * In your server.js file import body-parser using require and apply body-parser to your express application.
+
 ####
 
 Partial Example
