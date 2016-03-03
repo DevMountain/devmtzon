@@ -186,7 +186,7 @@ var express = require('express'),
 app.use(express.static(__dirname + '/public'));
 
 app.use(some code);
-app,use(more code);
+app.use(more code);
 
 
 
